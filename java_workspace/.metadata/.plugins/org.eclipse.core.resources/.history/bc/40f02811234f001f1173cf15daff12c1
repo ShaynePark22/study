@@ -1,0 +1,15 @@
+package workshop02;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		int[] number = new int[3];
+		System.out.print("입력값: ");
+		for (int i = 0; i < args.length; i++) {
+			number[i] = Integer.parseInt(args[i]);
+			System.out.print(number[i] + " ");
+		}
+		
+	}
+
+}

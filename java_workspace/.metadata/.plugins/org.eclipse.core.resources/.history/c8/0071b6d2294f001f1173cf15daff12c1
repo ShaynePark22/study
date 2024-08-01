@@ -1,0 +1,21 @@
+package com.Test3;
+
+public class Student {
+	private String[] name = {"홍길동", "한사람", "임걱정"} ;
+	private int age;
+	private int height;
+	private int weight;
+	
+	public Student() {
+		
+	}
+	
+	public Student(String name, int age, int height, int weight) {
+		
+	}
+	
+	public String studentInfo() {
+		
+	}
+	
+}

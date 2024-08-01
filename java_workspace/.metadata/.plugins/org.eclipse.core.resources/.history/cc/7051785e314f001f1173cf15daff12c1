@@ -1,0 +1,28 @@
+package com.Test3;
+
+public class Student {
+	private String name;
+	private int age;
+	private int height;
+	private int weight;
+	
+	public Student() {
+	
+	}
+
+	public Student(String name, int age, int height, int weight) {
+		this.name = name;
+		this.age = age;
+		this.height = height;
+		this.weight = weight;
+	}
+	
+	public String studentInfo() {
+		String age1 = String.valueOf(this.age);
+		String height1 = String.valueOf(this.height);
+		String weight1 = String.valueOf(this.weight);
+		String data = this.name + "\t" + age1 + "\t" + height1 + "\t" + weight1 ;
+		
+	}
+	
+}

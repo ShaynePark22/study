@@ -1,0 +1,14 @@
+package com.Test3;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+
+		Student studentArray[] = new Student[3];
+		String name[] = { "홍길동", "한사람", "임걱정" };
+		int age[] = { 15, 13, 16 };
+		int height[] = { 170, 180, 175 };
+		int weight[] = { 80, 70, 65 };
+	}
+
+}
